@@ -9,7 +9,7 @@ import About from "./pages/about/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./pages/footer/Footer";
 const App = () => {
-  const currentUser = true;
+ // const currentUser = true;
   return (
     <Router>
       <TopBar />
@@ -17,11 +17,11 @@ const App = () => {
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />
         <Route path="/posts" element={<Homepage />} />
-        <Route path="/register" element={currentUser ? <Homepage /> : <Register />} />
-        <Route path="/login" element={currentUser ? <Homepage /> : <Login />} />
+        <Route path="/register" element={ <Register />} />
+        <Route path="/login" element={ <Login />} />
         <Route path="/post/:id" element={<SinglePost />} />
-        <Route path="/write" element={currentUser ? <WritePost /> : <Login />} />
-        <Route path="/userProfile" element={currentUser ? <UserProfile /> : <Login />} />
+        <Route path="/write" element={ <WritePost />} />
+        <Route path="/userProfile" element={ <UserProfile /> } />
       </Routes>
       <Footer/>
     </Router>

@@ -55,4 +55,15 @@
     color: white;
     cursor: pointer;
   }
-  
+  .link{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  }
+
+  .link:hover{
+    color: gray;
+}

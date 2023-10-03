@@ -23,6 +23,11 @@ const TopBar=() =>{
               WRITE
             </Link>
           </li>
+          <li className="topListItem">
+            <Link className="link" to="/login">
+              LOGIN
+            </Link>
+          </li>
           {user && <li className="topListItem">LOGOUT</li>}
         </ul>
       </div>
@@ -49,7 +54,7 @@ const TopBar=() =>{
             </li>
           </ul>
         )}
-        <i className="topSearchIcon fas fa-search"></i>
+        <i className="topSearchIcon fa fa-search"></i>
       </div>
     </div>
   );

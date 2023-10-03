@@ -24,10 +24,10 @@ import "./footer.css";
        <div className="footer-col">
          <h4>follow us</h4>
          <div className="social-links">
-           <a href="#"><i className="fab fa-facebook-f"></i></a>
-           <a href="#"><i className="fab fa-twitter"></i></a>
-           <a href="#"><i className="fab fa-instagram"></i></a>
-           <a href="#"><i className="fab fa-linkedin-in"></i></a>
+           <a href="#"><i className="fa fa-facebook"></i></a>
+           <a href="#"><i className="fa fa-twitter"></i></a>
+           <a href="#"><i className="fa fa-instagram"></i></a>
+           <a href="#"><i className="fa fa-linkedin"></i></a>
          </div>
        </div>
        <div className="footer-col">
@@ -35,7 +35,7 @@ import "./footer.css";
          <p className='describ'>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
          <form action="#">
             <input className='form-input' type="text" placeholder="Email Address"/>
-            <button><i className="fab fa-telegram-plane"></i></button>
+            <button><i className="fa fa-telegram"></i></button>
          </form>
        </div>
      </div>
